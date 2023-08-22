@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+svg {
+    fill: #ffffff
+}
+
+.navbar svg {
+    fill: #232323;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    margin-bottom: 45px;
+}
+
+.logo-text h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.logo-text svg {
+    font-size: 25px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.icon-text p {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-items-bottoms {
+    padding-top: 50px;
+}
+
+/* MAIN SCREEN */
+.main {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin: 10px 20px;
+}
+
+#search {
+    background-color: #e2e8f0;
+    width: 600px;
+    height: 25px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-input {
+    margin-left: 20px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.about-user {
+    display: flex;
+    align-items: center;
+}
+
+
+.user-profile {
+    margin: 0 30px;
+}
+
+
+.user-welcome {}
+
+.project {
+    background-color: #e2e8f0;
+}
