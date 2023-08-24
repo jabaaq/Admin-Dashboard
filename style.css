@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -55,6 +60,7 @@ svg {
     margin: 10px 50px;
 }
 
+
 .icon-text p {
     margin-left: 30px;
     font-size: 20px;
@@ -65,6 +71,8 @@ svg {
     display: flex;
     flex-direction: column;
 }
+
+
 
 .list-items-bottoms {
     padding-top: 50px;
@@ -202,6 +210,17 @@ svg {
     width: 90%;
 }
 
+.card-icons svg:hover {
+    background-color: #a9b2b72b;
+    border-radius: 5px;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.card-icons svg:active {
+    transform: translateY(0);
+}
+
 .projects h3 {
     margin: 10px 20px;
 }
@@ -288,4 +307,32 @@ svg {
 
 .announcements {
     margin-top: 20px;
+}
+
+.bell-icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon-text:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.trend-img-text:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.form-input svg:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.ann-text:active {
+    transform: scale(1.05);
 }
